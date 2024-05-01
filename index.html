@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="progress.css">
+</head>
+<body>
+    <h1>Video Player</h1>
+    <video src="videos/Julia Lester  Home HSMTMTS  Disney_720p.mp4" id="video" class="screen" poster="img/home Julia Lester.png"></video>
+    <div class="controls">
+
+        <button class="btn" id="prev">
+            <i class="fa fa-backward fa-2x"></i>
+        </button>
+
+        <button class="btn" id="play">
+            <i class="fa fa-play fa-2x"></i>
+        </button>
+
+        <button class="btn" id="next">
+            <i class="fa fa-forward fa-2x"></i>
+        </button>
+
+        
+
+        <button class="btn" id="stop">
+             <i class="fa fa-stop fa-2x"></i>
+        </button>
+       
+
+        <input type="range" id="progress" class="progress" min="0" max="100" step="0.1"
+        value="0">
+
+        <span class="timestamp" id="timestamp">00:00</div>
+
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
